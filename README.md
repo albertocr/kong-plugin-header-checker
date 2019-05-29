@@ -29,7 +29,7 @@ Here's a list of all the parameters which can be used in this plugin's configura
 | -------------                  | ------------- | -------------------                                          |
 | `name`                         |               | The name of the plugin to use, in this case `header-checker` |
 | `consumer_id`                  |               | The id of the Consumer which this plugin will target.        |
-| `config.`header_to_check       | `User-Agent`  | The header which the plugin checks                           |
+| `config.header_to_check`       | `User-Agent`  | The header which the plugin checks                           |
 | `config.allowed_header_values` | `secretAgent` | The allowed header values in header_to_check header          |
 
 ## Author
