@@ -1,4 +1,4 @@
-Kong - User Agent Header Checker Plugin
+Kong - Header Checker Plugin
 ==============================
 
 A [Kong](https://github.com/Kong/kong) plugin that checks the User-Agent header and rejects requests which does not have a User-Agent value which includes one of the configured allowed ones.
@@ -29,7 +29,7 @@ Here's a list of all the parameters which can be used in this plugin's configura
 | -------------                  | ------------- | -------------------                                          |
 | `name`                         |               | The name of the plugin to use, in this case `header-checker` |
 | `consumer_id`                  |               | The id of the Consumer which this plugin will target.        |
-| `config.`header_to_check       | `User-Agent`  | The header which the plugin checks                           |
+| `config.header_to_check`       | `User-Agent`  | The header which the plugin checks                           |
 | `config.allowed_header_values` | `secretAgent` | The allowed header values in header_to_check header          |
 
 ## Author
