@@ -15,11 +15,11 @@ As of now, this plugin is a proof of concept and not ready for production. Use i
 
 ## Requirements
 
-* [Kong](https://konghq.com/) (0.12.x or higher)
+* [Kong](https://konghq.com/) (>=1.0): if you want to install this plugin on Kong >=0.12.x, please use the [0.1.0 version](https://github.com/albertocr/kong-plugin-header-checker/releases/tag/0.1.0).
 
 ## Installation
 
-Please see the [official documentation](https://docs.konghq.com/0.14.x/plugin-development/distribution/) on how to install a plugin manually.
+Please see the [official documentation](https://docs.konghq.com/0.14.x/plugin-development/distribution/) on how to install a plugin manually.  (Luarocks not yet supported).
 
 ## Configuration
 
